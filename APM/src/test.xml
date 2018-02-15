@@ -1,0 +1,44 @@
+<InstanceConfiguration>
+  <HasRegistryAccess>true</HasRegistryAccess>
+  <InstanceName>FailOrNot</InstanceName>
+  <MultipleServers>true</MultipleServers>
+  <Database>
+    <IsEncrypted>true</IsEncrypted>
+    <Oracle />
+    <SqlServer>
+      <UserId>86CE8674EC6E18100C1F70D96CF5970F67376050F0CC8A969698117D31F8</UserId>
+      <Password>31C8ACE71CB449EBC11EFC74B99928F403CC96C46D690C3872656B7928E2</Password>
+      <Extra>Network Library=dbmssocn;Persist Security Info=True;Data Source=NAB-TEST1.IT.ENABLON.COM</Extra>
+    </SqlServer>
+  </Database>
+  <EnablonMaster />
+  <WizBatch>
+    <BatchHour>9.26</BatchHour>
+    <DayOfCleaning>7</DayOfCleaning>
+    <IsDailyReports>true</IsDailyReports>
+    <IsCustomBatches>true</IsCustomBatches>
+    <IIS_URL>http://127.0.0.1/</IIS_URL>
+    <InstalledAsAService>true</InstalledAsAService>
+  </WizBatch>
+  <WebServer>
+    <IIS>
+      <Instance>3</Instance>
+      <ApplicationPool>Failover</ApplicationPool>
+    </IIS>
+    <SystemURL>http://nab-failover.enablon.com/</SystemURL>
+  </WebServer>
+  <AppServer />
+  <RegistrationKeys>
+    <RegistrationKey>
+      <Name>NAB-TEST2</Name>
+      <Value>v=2,k=BECE1EB882CDAFC8B5C5A27C32BCAFC7B621B3FD,s=8.6,d=,o=0,cs=-1,h=E5588F249A9C6498A87DBC310D14DAF6C03FDAE6</Value>
+    </RegistrationKey>
+    <RegistrationKey>
+      <Name>NAB-TEST1</Name>
+      <Value>v=2,k=329C4D2ED61910C26B273BC750784A75171D3A5C,s=8.6,d=,o=0,cs=-1,h=8877681C18734000DC902BBBFAA491EDE67756F5</Value>
+    </RegistrationKey>
+  </RegistrationKeys>
+  <LastEnaSavePath>C:\ena\</LastEnaSavePath>
+  <FailOverMode>true</FailOverMode>
+  <RssUrls />
+</InstanceConfiguration>
